@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Name - Admission Procedure</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>SOCSE - Admission Procedure</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Admission Procedure</h1>
         <nav>
-            <ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="admission.html">Admission Procedure</a></li>
@@ -33,7 +36,9 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 School Name. All rights reserved.</p>
+        <p>&copy; 2024 SOCSE. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
+
