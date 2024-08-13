@@ -3,39 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOCSE - Admission Procedure</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contact Us - School Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Admission Procedure</h1>
-        <nav>
-            <div class="menu-icon" onclick="toggleMenu()">
-                &#9776;
-            </div>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="admission.html">Admission Procedure</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">School Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="location.html">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admission.html">Admission Procedure</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="facilities.html">Facilities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                </li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Contact Details</h2>
-            <p>Address: RV university campus,Vidyanikethan post,Mysuru road,Bengaluru - 560 059</p>
-            <p>Phone: 080 68199900</p>
-            <p>Email: rvu@gamil.com</p>
-        </section>
-        <section>
-            <h2>Location</h2>
-            <p>We are located in the heart of Education City, easily accessible by public transport.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 SOCSE. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
