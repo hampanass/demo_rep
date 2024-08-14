@@ -2,28 +2,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 30px;
     padding: 15px;
+    background-color: #FAFAFA; /* Very light gray background */
 }
 
 .container {
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #ADD8E6;
+    background-color: #F0F8FF; /* Light blue (AliceBlue) for a soft feel */
     border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Slightly lighter shadow */
 }
 
 .navbar {
-    background-color: #E6E6FA;
-    color: #fff;
+    background-color: #E6E6FA; /* Light lavender color */
+    color: #333; /* Darker text for contrast */
     padding: 10px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #B0C4DE; /* Light Steel Blue border */
 }
 
 .navbar-brand {
     font-size: 24px;
     font-weight: bold;
     margin-right: 20px;
+    color: #4682B4; /* Steel Blue for a professional look */
 }
 
 .navbar-nav {
@@ -31,37 +33,42 @@ body {
 }
 
 .nav-link {
-    color: #fff;
+    color: #4682B4; /* Steel Blue links */
     margin-right: 20px;
 }
 
 .nav-link:hover {
-    color: 	#E6E6FA;
+    color: #5F9EA0; /* Soft Cadet Blue on hover */
 }
 
 .active {
-    color: grey;
-    background-color: #fff;
+    color: #fff;
+    background-color: #4682B4; /* Active link with Steel Blue background */
 }
 
 h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: #2F4F4F; /* Dark Slate Gray for headings */
 }
 
 h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #2F4F4F; /* Dark Slate Gray for subheadings */
 }
 
 p {
     margin-bottom: 20px;
+    color: #696969; /* Dim Gray for paragraph text */
 }
 
 img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Soft shadow for images */
 }
 
 .row {
@@ -79,4 +86,6 @@ img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
