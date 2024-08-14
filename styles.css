@@ -1,15 +1,16 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 30px;
     padding: 15px;
-    background-color: #C0C0C0; /* Very light gray background */
+    background-color: #FAFAFA; /* Very light gray background */
 }
 
 .container {
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #ADD8E6; /* Light blue (AliceBlue) for a soft feel */
+    background-color: #F0F8FF; /* Light blue (AliceBlue) for a soft feel */
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Slightly lighter shadow */
 }
@@ -18,7 +19,7 @@ body {
     background-color: #E6E6FA; /* Light lavender color */
     color: #333; /* Darker text for contrast */
     padding: 10px;
-    border-bottom: 1px solid #ADD8E6; /* Light Steel Blue border */
+    border-bottom: 1px solid #B0C4DE; /* Light Steel Blue border */
 }
 
 .navbar-brand {
@@ -30,7 +31,6 @@ body {
 
 .navbar-nav {
     margin-top: 10px;
-    background-color: #FFFFFF;
 }
 
 .nav-link {
@@ -44,7 +44,7 @@ body {
 
 .active {
     color: #fff;
-    background-color: #E0FFFF; /* Active link with Steel Blue background */
+    background-color: #4682B4; /* Active link with Steel Blue background */
 }
 
 h1 {
