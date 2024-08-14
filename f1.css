@@ -1,84 +1,91 @@
-/* Basic styles for the header */
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
+    margin: 30px;
+    padding: 15px;
+    background-color: #FAFAFA; /* Very light gray background */
 }
 
-header {
-    background: #333;
-    color: white;
-    padding: 15px 0;
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #F0F8FF; /* Light blue (AliceBlue) for a soft feel */
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Slightly lighter shadow */
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+    background-color: #E6E6FA; /* Light lavender color */
+    color: #333; /* Darker text for contrast */
+    padding: 10px;
+    border-bottom: 1px solid #B0C4DE; /* Light Steel Blue border */
 }
 
-.logo {
+.navbar-brand {
     font-size: 24px;
     font-weight: bold;
-    text-transform: uppercase;
+    margin-right: 20px;
+    color: #4682B4; /* Steel Blue for a professional look */
 }
 
-.nav-links {
-    list-style: none;
+.navbar-nav {
+    margin-top: 10px;
+}
+
+.nav-link {
+    color: #4682B4; /* Steel Blue links */
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #5F9EA0; /* Soft Cadet Blue on hover */
+}
+
+.active {
+    color: #fff;
+    background-color: #4682B4; /* Active link with Steel Blue background */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2F4F4F; /* Dark Slate Gray for headings */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #2F4F4F; /* Dark Slate Gray for subheadings */
+}
+
+p {
+    margin-bottom: 20px;
+    color: #696969; /* Dim Gray for paragraph text */
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Soft shadow for images */
+}
+
+.row {
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.nav-links li {
-    display: inline-block;
+.col-md-4 {
+    flex-basis: 33.33%;
+    padding: 20px;
 }
 
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: #ff6347;
-}
-
-/* Responsive styles */
-.burger {
-    display: none;
-    cursor: pointer;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.burger div {
-    width: 25px;
-    height: 3px;
-    background: white;
-}
-
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        background: #333;
-        position: absolute;
-        right: 0;
-        top: 60px;
-        width: 100%;
-        text-align: center;
-    }
-
-    .nav-links li {
-        margin: 10px 0;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .burger {
-        display: flex;
-    }
+.col-md-4 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
